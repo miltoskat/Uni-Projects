@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Άσκηση 03-D</title>
+  <style type="text/css">
+
+    /* τα περισσότερα σχόλια είναι στο 1.html */
+    /* εδώ υπάρχουν μόνο για το σκέλος D */
+
+@media screen {
+    body {
+    	font-family: Tahoma, Geneva, sans-serif;
+    	font-size: 10pt;
+    	color: #333;
+    }
+
+    #container {
+    	border: 1px solid #666;
+      width: 80%;
+      min-width: 600px;
+      margin: 0px auto;
+    }
+
+    h1 {
+      line-height: 120%;
+      font-size: 24px;
+    }
+
+/* --- HEADER --------------------------------------------*/
+    #header {
+      height: 150px;
+    	background-color: #E1E1E1;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    #header h1 {
+      color: #307FE0;
+      font-size: 40px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+
+/* --- LEFT SIDEBAR -------------------------------------------*/
+    #leftsidebar {
+      padding: 0;
+      margin: 0;
+      width: 200px;
+      float: left;
+    }
+
+    ul.menu {
+      list-style-type: none;
+      padding:10px;
+      margin:0;
+    }
+
+    #leftsidebar li {
+      background-color: #7FC0C0;
+      border: solid thin #999;
+      height: 20px;
+      margin: 5px 0 0 0;
+      padding: 5px 7px;
+      text-align: right;
+      font-size: 15px;
+      border-radius: 8px 0;
+    }
+
+    #leftsidebar ul li a {
+      text-decoration: none;
+    }
+
+    #leftsidebar ul li a:hover {
+      font-weight: 600;
+    }
+
+/* --- MAIN ----------------------------------------------*/
+    #main {
+      padding: 2em;
+      margin-left: 200px;
+      border-left: solid 1px #aaa;
+      line-height: 130%;
+      min-height: 300px;
+    }
+
+/* --- FOOTER --------------------------------------------*/
+    #footer {
+      clear: both;
+    	background-color: #E1E1E1;
+      height: 20px;
+      padding: 10px;
+      margin: 0;
+    }
+
+    #leftfooter {
+      float:left;
+    }
+
+    #rightfooter {
+      float:right;
+    }
+
+}
+
+/* --- κανόνες για width<650 εδώ -----------------------------------------*/
+@media screen and (max-width:650px) {
+  #container{
+    width: 95%;
+    min-width: 200px;
+    margin: 0;
+  }
+
+  #header{
+    height: auto;
+  }
+
+  #header>h1{
+    position: static;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  #leftsidebar{
+    float: none;
+    width: 100%;
+  }
+
+  #leftsidebar li{
+    text-align: center;
+  }
+
+  #main{
+    margin-left: 0;
+    border-right: 0;
+    padding: 1em 1em;
+  }
+
+}
+
+
+
+
+
+
+
+/* --- κανόνες για εκτυπωτή εδώ ------------------------------------------*/
+
+
+
+
+
+
+
+  </style>
+
+</head>
+
+<body>
+  <div id="container">
+
+    <div id="header">
+      <h1>Super eShop</h1>
+    </div>
+
+    <div id="leftsidebar">
+      <ul class="menu">
+        <li><a href="home.html">Home Page</a></li>
+        <li><a href="products.html">Προϊόντα</a></li>
+        <li><a href="offers.html">Προσφορές</a></li>
+        <li><a href="contact.html">Επικοινωνία</a></li>
+      </ul>
+    </div>
+
+    <div id="main">
+
+    <p>Θέμα μείωσης ακόμη και του βασικού μισθού των 751 ευρώ,
+       που λαμβάνουν οι νεοεισερχόμενοι στην αγορά εργασίας και
+       είναι άνω των 25 ετών, έθεσε η τρόικα. Λίγο πριν από την
+       έγκριση της 6ης δόσης του δανείου οι επιτηρητές -κατά τη
+       χθεσινή τους κρίσιμη συνάντηση στο υπουργείο Εργασίας με
+       την πολιτική ηγεσία- δεν έδειξαν να ενδιαφέρονται για την
+       κατάρρευση του ΙΚΑ, τη γιγάντωση των καθυστερούμενων
+       εισφορών των επιχειρήσεων προς τα ασφαλιστικά ταμεία, τη
+       γενίκευση της «μαύρης»-ανασφάλιστης εργασίας.</p>
+    <p>Θέμα μείωσης ακόμη και του βασικού μισθού των 751 ευρώ,
+       που λαμβάνουν οι νεοεισερχόμενοι στην αγορά εργασίας και
+       είναι άνω των 25 ετών, έθεσε η τρόικα. Λίγο πριν από την
+       έγκριση της 6ης δόσης του δανείου οι επιτηρητές -κατά τη
+       χθεσινή τους κρίσιμη συνάντηση στο υπουργείο Εργασίας με
+       την πολιτική ηγεσία- δεν έδειξαν να ενδιαφέρονται για την
+       κατάρρευση του ΙΚΑ, τη γιγάντωση των καθυστερούμενων
+       εισφορών των επιχειρήσεων προς τα ασφαλιστικά ταμεία, τη
+       γενίκευση της «μαύρης»-ανασφάλιστης εργασίας.</p>
+
+    </div>
+
+    <div id="footer">
+      <div id="leftfooter">&copy; TEI Θεσσαλίας</div>
+      <div id="rightfooter">desing: ProIV</div>
+    </div>
+
+  </div>
+</body>
+</html>
